@@ -1,0 +1,178 @@
+@font-face {
+    font-family: Akashi;
+    src: url("Akashi.woff");
+}
+
+div {
+/*    border: solid white 1px;*/
+    color: white;
+    font-family: Akashi;
+}
+body {
+    padding: 0;
+    margin: 0; 
+    display: flex;
+    flex-flow: column;
+    background-image: url(elitedan.jpg);
+    background-position: top;
+    background-size: contain;
+    background-attachment: fixed;
+}
+#outer1 {
+    height: 500px;
+    width: 100vw;
+    border-bottom: solid white 5px;
+}
+#BigContainer {
+    background-image: url(space.jpg);
+}
+
+/*
+================================
+image, name, and tagline
+================================
+*/
+
+#outer2 {
+    height: 300px;
+
+}
+#Pro_img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    position: relative;
+    top: -75px;
+    border-radius: 10px;
+    margin-bottom: -50px;
+    background-image: url(papyrus.jpg);
+    background-position: center;
+    background-size: contain;
+    border: solid white 2px;
+}
+#Name {
+    font-size: 50pt;
+    text-align: center;
+
+}
+#TagLine {
+    text-align: center;
+    font-size: 24pt;
+}
+
+/*
+
+================================
+portfolio
+================================
+*/
+#outer3 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 30px;
+    padding-bottom: 0;
+
+}
+.portfolio {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin: auto;
+    transition: all ease 0.5s;
+}
+.portfolio:hover {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin: auto;
+    transition: all ease 0.3s;
+}
+.Ptitle {
+    height: 30px;
+    border-radius: 5px;
+    position: relative;
+    top: -20px;
+    left: 100px;
+    background-color: grey;
+    font-size: 20pt;
+    text-align: center;
+}
+
+/*===========
+portfolio items
+============='*/
+
+#port_item1 {
+    background-image: url("bee.png");
+    background-size: cover;
+    background-position: center;
+}
+#port_item2 {
+    background-image: url("inappropriatememe.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#port_item3 {
+    background-image: url("what.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#port_item4 {
+    background-image: url("devito.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#port_item5 {
+    background-image: url("memes.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#port_item6 {
+    background-image: url("ATV.png");
+    background-size: cover;
+    background-position: center;
+}
+/*
+
+================================
+Bio
+================================
+*/
+
+#outer4 {
+    height: 15vw;
+    display: flex;
+    flex-flow: row;
+
+}
+
+#bioPic img{
+    width: 20vw;
+    height: auto;
+}
+#bioWord {
+    height: 100%;
+    width: auto;
+    font-size: 1.1vw;
+    padding: 20px;
+}
+
+/*
+
+================================
+footer
+================================
+*/
+#outer5 {
+    height: 100px;
+    background-image: url("fed.jpg");
+    background-position: center;
+    z-index: 2;
+    padding: 200px;
+    border-top: solid white 5px;
+}
+#TagLine2 {
+    font-size: 5vw;
+    text-align: center;
+}
